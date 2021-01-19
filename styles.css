@@ -1,0 +1,25 @@
+html, body {
+    margin: 0;
+    background: #ccc;
+}
+.content {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #aaa;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.left {
+    flex: 0 1 256px;
+    margin-right: 2%;
+    padding: 2%;
+    background: #f5d781;
+    align-self: center;
+}
+.center {
+    flex: 1 1 600px;
+    padding: 2%;
+    background: #f58781;
+}
